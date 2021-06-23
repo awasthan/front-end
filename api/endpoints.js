@@ -1,6 +1,7 @@
 (function (){
   'use strict';
 
+  require('@instana/collector')()
   var util = require('util');
 
   var domain = "";
