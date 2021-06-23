@@ -1,6 +1,7 @@
 (function (){
   'use strict';
-
+  
+  require('@instana/collector')()
   var session      = require("express-session"),
       RedisStore   = require('connect-redis')(session)
 
