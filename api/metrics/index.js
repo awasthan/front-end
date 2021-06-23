@@ -1,5 +1,6 @@
 (function (){
   'use strict';
+  require('@instana/collector')()
   const apiRoutes = ['cart', 'catalogue', 'orders', 'user'];
   var express = require("express")
     , client  = require('prom-client')
