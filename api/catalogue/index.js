@@ -1,6 +1,7 @@
 (function (){
   'use strict';
 
+  require('@instana/collector')()
   var express   = require("express")
     , request   = require("request")
     , endpoints = require("../endpoints")
