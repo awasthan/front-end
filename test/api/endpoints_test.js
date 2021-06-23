@@ -1,6 +1,6 @@
 (function (){
   'use strict';
-
+  require('@instana/collector')()
   var expect    = require("chai").expect
     , endpoints = require("../../api/endpoints")
 
